@@ -1,6 +1,43 @@
-.attribution { font-size: 11px; text-align: center; }
+/* Fix positioning of footer (@media) */
+.attribution { font-size: 11px; text-align: center; color: white; position: absolute; bottom: 5px;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .rating-box{
-  background-color: blue;
+  background-color: hsl(213, 20%, 18%);
+  border-radius: 10px;
+}
+
+.title{
+  font-family: Overpass, Arial;
+  font-weight: 700;
+  color: white;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subtitle{
+  font-family: Overpass, Arial;
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.rating-button{
+  border: none;
+  font-family: Overpass, Arial;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(216, 12%, 54%);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.submit-button{
+  border: none;
+  font-family: Overpass, Arial;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
 }
