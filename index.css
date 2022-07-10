@@ -21,6 +21,7 @@
   height: 40px;
   border-radius: 20px;
   position: relative;
+  margin: 20px 0 20px 20px;
 }
 
 .image{
@@ -37,16 +38,15 @@
   font-weight: 700;
   color: white;
   font-size: 24px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 0 20px 15px;
 }
 
 .subtitle{
   font-family: Overpass, Arial;
   font-size: 15px;
   color: hsl(216, 12%, 54%);
-  margin-top: 0;
-  margin-bottom: 0;
+  line-height: 22px;
+  margin: 0 0 25px 15px;
 }
 
 .ratings{
