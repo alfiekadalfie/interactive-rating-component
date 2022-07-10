@@ -4,7 +4,15 @@
 
 .rating-box{
   background-color: hsl(213, 20%, 18%);
-  border-radius: 10px;
+  border-radius: 20px;
+  width: 350px;
+  height: 375px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .title{
