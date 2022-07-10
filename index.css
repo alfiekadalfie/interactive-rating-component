@@ -15,6 +15,23 @@
   transform: translate(-50%, -50%);
 }
 
+.top-star{
+  background-color: hsl(213, 20%, 25%);
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.image{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .title{
   font-family: Overpass, Arial;
   font-weight: 700;
