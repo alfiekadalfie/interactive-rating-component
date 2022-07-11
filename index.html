@@ -30,15 +30,15 @@
     </p>
 
     <div class="ratings">
-      <button class="rating-button">1</button>
-      <button class="rating-button">2</button>
-      <button class="rating-button">3</button>
-      <button class="rating-button">4</button>
-      <button class="rating-button">5</button>
+      <button id="1" onclick="clickedButton1()" class="rating-button">1</button>
+      <button id="2" onclick="clickedButton2()" class="rating-button">2</button>
+      <button id="3" onclick="clickedButton3()" class="rating-button">3</button>
+      <button id="4" onclick="clickedButton4()" class="rating-button">4</button>
+      <button id="5" onclick="clickedButton5()" class="rating-button">5</button>
     </div>
 
     
-    <button class="submit-button">SUBMIT</button>
+    <button onclick="submit()" class="submit-button">SUBMIT</button>
     
   </div>
 
@@ -48,5 +48,38 @@
     <!--Portfolio-->
     Coded by <a href="#" target="_blank">Alfonsus Rahardjo</a>.
   </div>
+
+  <script>
+    let number;
+
+    function clickedButton1() {
+      let value = document.getElementById('1')
+      number = value.innerText;
+    }
+
+    function clickedButton2() {
+      let value = document.getElementById('2')
+      number = value.innerText;
+    }
+
+    function clickedButton3() {
+      let value = document.getElementById('3')
+      number = value.innerText;
+    }
+
+    function clickedButton4() {
+      let value = document.getElementById('4')
+      number = value.innerText;
+    }
+
+    function clickedButton5() {
+      let value = document.getElementById('5')
+      number = value.innerText;
+    }
+
+    function submit() {
+      
+    }
+  </script>
 </body>
 </html>
