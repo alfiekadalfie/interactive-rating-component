@@ -39,7 +39,7 @@ svg{
   color: hsl(25, 97%, 53%);
 }
 
-.title{
+.title2{
   font-family: Overpass, Arial;
   font-weight: 700;
   color: white;
@@ -47,7 +47,7 @@ svg{
   
 }
 
-.subtitle{
+.subtitle2{
   font-family: Overpass, Arial;
   font-size: 15px;
   color: hsl(216, 12%, 54%);
