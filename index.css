@@ -75,6 +75,11 @@
   color: white;
 }
 
+.rating-button:focus{
+  background-color: hsl(216, 12%, 54%);
+  color: white;
+}
+
 .submit-button{
   border: none;
   font-family: Overpass, Arial;
