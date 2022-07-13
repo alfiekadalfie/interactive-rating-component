@@ -161,3 +161,7 @@ svg{
   text-align: center;
   margin-top: -10px;
 }
+
+.display {
+  display: none;
+}
