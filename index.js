@@ -1,32 +1,18 @@
-const elements = {};
+const ratingBox = document.querySelector('.rating-box');
+const submissionBox = document.querySelector('.submission-box');
+const submitButton = document.querySelector('.submit-button');
+const ratingButton = document.querySelectorAll('.rating-button');
+let rating = document.querySelector('#rating');
 
-const chooseRating = () => {
-  for (const rating of elements.ratingNumbers) {
-    rating.addEventListener('click', () => {
-      submitRating();
-      elements.ratingSelected.innerText = rating.innerText;
-    });
+submitButton.addEventListener('click', () => {
+  if (rating.innerHTML != '0'){
+    submissionBox.classList.remove('display');
+    ratingBox.style.display = 'none';
   }
-};
+});
 
-const submitRating = () => {
-  elements.submit.addEventListener('click', () => {
-    elements.ratingPage.classList.toggle('display');
-    elements.submissionPage.classList.toggle('display');
-  });
-};
-
-const domModel = () => {
-  elements.submit = document.querySelector('.submit-button');
-  elements.ratingSelected = document.querySelector('#rating');
-  elements.ratingPage = document.querySelector('.rating-box');
-  elements.submissionPage = document.querySelector('.submission-box');
-  elements.ratingNumbers = Array.from(document.querySelectorAll('.ratings buttons'));
-};
-
-const init = () => {
-  domModel();
-  chooseRating();
-};
-
-init();
+ratingButton.forEach((button) => {
+  button.addEventListener('click', () => {
+    rating.innerHTML = button.innerHTML;
+  })
+});
